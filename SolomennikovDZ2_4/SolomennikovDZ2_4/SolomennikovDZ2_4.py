@@ -25,7 +25,7 @@ for update in price_updates:
                 product['price'] *= (1 - param)
             break  
 
-# Сохраняем обновленные данные обратно в файл pkl
+
 with open('fourth_task_updated_products.pkl', 'wb') as pkl_file:
     pickle.dump(products, pkl_file)
 
